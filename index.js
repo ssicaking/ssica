@@ -8,7 +8,7 @@ Zepto(function ($) {
 	//获取code
 	var patt = new RegExp('http://([a-zA-Z_0-9]+)\.');
 	var ret = url.match(patt);
-	var OssCode = ret[1];
+//	var OssCode = ret[1];
 	var referurl = nextUrl1 + "?refer=" + url;
 	console.log(referurl);
 	
